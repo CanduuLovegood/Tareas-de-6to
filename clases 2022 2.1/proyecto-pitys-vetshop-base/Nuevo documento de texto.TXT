@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------------------------------------
+en visual studio code buscar= php -> las 2 primeras descargar   ////LISTOOOO////
+-------------------------------------------------------------------------------------------------------------
+despues si queres usar boostrap tenes que instalar 1 extensiones mas= boostrap 4 (despues te digo el autor)
+-------------------------------------------------------------------------------------------------------------
+y por ultimo tenes que descargar xampp ////LISTOOOO////
+
+entras a os (c:) y vas a ver que esta la carpeta xampp, entras, buscas la carpeta htdocs y ahi creas la carpeta de tu proyecto
+-------------------------------------------------------------------------------------------------------------
+para ver tu pagina desde el navegador tenes que escribir= localhost/"nombre de tu proyecto"

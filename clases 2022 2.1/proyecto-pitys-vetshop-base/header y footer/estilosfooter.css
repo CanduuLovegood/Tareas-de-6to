@@ -1,0 +1,143 @@
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo{
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.footer-menu{
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    text-transform:uppercase;
+
+}
+
+.item-menu{
+    margin: 1rem 1.5rem;
+    cursor:pointer;
+    opacity: 0.6;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    text-transform:uppercase;
+}
+.item-menu:hover{
+    color:#a42ae0;
+}
+
+.copyright{
+    color: #fff;
+    text-align: center;
+}
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #0a141d;
+
+}
+
+.pie-pagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+.pie-pagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pie-pagina .grupo1 .box figure img{
+    width: 150px;
+}
+
+.pie-pagina .grupo1 .box h2{
+    color: #9263a7;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+
+.pie-pagina .grupo1 .box p{
+    color: #efef;
+}
+.pie-pagina .grupo1 .menu-pagina a{
+    display:list-item;
+    text-decoration: none;
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    color: #9263a7;
+    text-align: center justify;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo1 .menu-pagina a:hover{
+    color:#d7aceb
+
+}
+
+.pie-pagina .grupo2{
+    background: color #0c2035;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo2 small{
+    font: 15px;
+}
+
+@media screen and (max-width: 800px) {
+    .pie-pagina .grupo1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    
+    }
+}
